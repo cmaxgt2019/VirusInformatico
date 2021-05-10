@@ -38,7 +38,19 @@ A diferencia de los virus y los gusanos informáticos, los troyanos no pueden mu
   <h2>Social Virus de Secuestro</h2>
   
  <h2> Virus de sistema de arranque bot </h2>
+  <p> Un virus de sector de arranque es un tipo de virus que infecta el sector de arranque de disquetes o el registro de arranque principal (MBR, por sus siglas en inglés) de los discos duros (algunos infectan el sector de arranque 
+    del disco duro en lugar del MBR). El código se ejecuta cuando el sistema se inicia desde un disco infectado y después de cargarse infecta otros disquetes a los que se accede en la computadora infectada. Aunque los virus de sector 
+    de arranque infectan al nivel motivo, comenzaron a desaparecer de la escena después de la aprición de Windows 95 (que utilizaba muy poco las instrucciones de DOS). en la actualidad, existen programas denominados "bootkits" que escriben 
+    su código en el MBR con el propósito de cargarse al principio del proceso de arranque y ocultar las acciones del malware que se ejecuta en Windows. Sin embargo, no se han diseñado para infectar medios extraibles. <p>
   
+  <p> El único criterio absoluto para un sector de arranque es que debe contener 0*55 y 0*AA como sus últimos dos bytes. SI esta firma no está presente o está dañada, la computadora puede mostrar un mensaje de error y no iniciarse. Los problemas 
+    asociados del sector pueden deber a daños en la unidad física o a la presencia de un virus de sector de arranque. <p>
+  
+  <p> Los virus informáticos de sector de arranque se propagan comúnmente a través de medios físicos. Un disquete o una unidad USB infectados que se conectan a una computadora realizan la transferencia durante la lectura del MBR y modifican
+    o reemplazan el código de arranque existente. La próxima vez que el usuario intente inciar el equipo de escritorio, el virus se carga y ejecuta de inmediatio como parte del registro de arranque principal. También es posible que los archivos 
+    adjuntos de correo electrónico contengan código de arranque. Si los abres, estos archivos adjuntos infectan la ccomputadora host y pueden contener instrucciones para enviar otros lotes de correos electrónicos a tu lista de contactos. Las mejoras 
+    en la arquitectura de la BIOS han reducido la propagación de los virus de arranque mediante la inclusión de una opción que impide cualquier modificación del primer sector del disco duro de una computadora. <p>
+    
   <h2>Ataques de Windows (Virus)</h2>
   <p> Ahorita en tiempo de pandemia, y en años pasados, todo la gente alrededor del mundo usa a diario sus telefonos o computadoras.<br> Sin embargo, lo que no muchos saben es que constante estamos en peligro de contraer un virus. 
   Uno de los ejemplos más populares es el Windows. Cuando uno descarga la famosa aplicación Windows,<br> uno esta abierto, a entrar a cualquier link, y posiblemente contraer un virus, que puede afectar el programa o el dispositivo que esta usando
